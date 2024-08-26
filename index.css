@@ -1,4 +1,4 @@
-@font-face{
+@font-face {
     font-family: "CursedTimer";
     src: url(/CursedTimerUlil-Aznm.ttf)
 }
@@ -11,17 +11,18 @@ body {
     background-color: #1F2937;
 }
 
-h1{
-text-align: center;
-padding: 20px;
-background-color: #000;
-background-size: 155px 120px;
-font-size: 90px;
-color: #F94F6D;
-margin-top: -25px;
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    background-size: 155px 120px;
+    font-size: 90px;
+    color: #F94F6D;
+    margin-top: -25px;
+    border-radius: 5px;
 }
 
-h3{
+h3 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -34,14 +35,18 @@ h3{
     width: 575px;
     height: 385px;
     margin: auto;
+    margin-top: 25px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
 }
-.teams{
+
+.teams {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.buttonSection{
+.buttonSection {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -49,7 +54,7 @@ h3{
     margin-top: -30px;
 }
 
-.buttons{
+.buttons {
     font-family: "CursedTimer";
     background-color: #1F2937;
     justify-content: space-evenly;
