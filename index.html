@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="teams">
+            <div class="homeTeam">
+                <div class="teamTitle">
+                    <h3>HOME</h3>
+                </div>
+                
+                    <h1 class="scores" id="homeScore-el">0</h1>
+                
+                <div class="buttonSection">
+                    <button class="buttons" id="home1Pts" onclick="addOneHome()">+1</button>
+                    <button class="buttons" id="home2Pts" onclick="addTwoHome()">+2</button>
+                    <button class="buttons" id="home3Pts" onclick="addThreeHome()">+3</button>
+                </div>
+            </div>
+            <div class="guestTeam">
+                <div class="teamTitle">
+                    <h3>GUEST</h3>
+                </div>
+                    <h1 class="scores" id="guestScore-el">0</h1>
+                <div class="buttonSection">
+                    <button class="buttons" id="guest1Pts" onclick="addOneGuest()">+1</button>
+                    <button class="buttons" id="guest2Pts" onclick="addTwoGuest()">+2</button>
+                    <button class="buttons" id="guest3Pts" onclick="addThreeGuest()">+3</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

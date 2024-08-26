@@ -1,0 +1,62 @@
+@font-face{
+    font-family: "CursedTimer";
+    src: url(/CursedTimerUlil-Aznm.ttf)
+}
+
+body {
+    font-family: "CursedTimer";
+    margin: 0;
+    color: white;
+    font-weight: 400;
+    background-color: #1F2937;
+}
+
+h1{
+text-align: center;
+padding: 20px;
+background-color: #000;
+background-size: 155px 120px;
+font-size: 90px;
+color: #F94F6D;
+margin-top: -25px;
+}
+
+h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 575px;
+    height: 385px;
+    margin: auto;
+}
+.teams{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.buttonSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: -30px;
+}
+
+.buttons{
+    font-family: "CursedTimer";
+    background-color: #1F2937;
+    justify-content: space-evenly;
+    height: 45px;
+    width: 45px;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    margin-top: px;
+}
